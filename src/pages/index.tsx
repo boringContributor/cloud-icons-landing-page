@@ -66,7 +66,7 @@ const Home: NextPage = () => {
             <Stack
               spacing={{ base: 4, sm: 6 }}
               direction={{ base: 'column', sm: 'row' }}>
-              <a href="https://www.figma.com/community/plugin/1094628499782224426/Cloud-Icons" target={'_blank'}>
+              <a href="https://www.figma.com/community/plugin/1094628499782224426/Cloud-Icons" target={'_blank'} rel="noreferrer">
                 <Button
                   rounded={'full'}
                   size={'lg'}
@@ -105,6 +105,7 @@ const Home: NextPage = () => {
               width={'400px'}
               overflow={'hidden'}>
               <Image
+                alt='Cloud Icons Figma Demo'
                 src={'/frame.gif'}
                 layout={'fill'}
               />
