@@ -9,8 +9,8 @@ function Main({ Component, pageProps }: AppProps) {
       <Head>
         <title>Cloud Icons</title>
         <link rel="shortcut icon" href="/cloud-icons.svg" />
-        <Script src="https://cdn.splitbee.io/sb.js" />
       </Head>
+      <Script src="https://cdn.splitbee.io/sb.js"></Script>
       <ChakraProvider>
         <Component {...pageProps} />
       </ChakraProvider>
